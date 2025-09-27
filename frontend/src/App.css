@@ -1,0 +1,82 @@
+/* Portfolio Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #cccccc;
+}
+
+/* Button Styles */
+.btn-primary:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+    background-color: #e55a2b !important;
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+
+.btn-secondary:hover {
+    background: #ff6b35 !important;
+    color: #ffffff !important;
+    transform: scale(1.02);
+}
+
+.btn-secondary:active {
+    transform: scale(0.98);
+}
+
+/* Navigation Styles */
+.nav-link:hover {
+    color: #ff6b35 !important;
+}
+
+/* Card Hover Effects */
+.group:hover {
+    transform: translateY(-2px);
+    border-color: #ff6b35;
+}
+
+/* Smooth Transitions */
+* {
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff6b35;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e55a2b;
+}
+
+/* Input Focus Styles */
+input:focus,
+textarea:focus {
+    border-color: #ff6b35 !important;
+    box-shadow: 0 0 0 1px rgba(255, 107, 53, 0.3) !important;
+}
+
+/* Selection Styles */
+::selection {
+    background-color: rgba(255, 107, 53, 0.3);
+    color: #ffffff;
+}
+
+/* Timeline styles */
+.timeline-dot {
+    box-shadow: 0 0 0 4px rgba(255, 107, 53, 0.2);
+}
