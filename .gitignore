@@ -31,6 +31,8 @@ venv/
 *.sln
 *.sw?
 
+VERCEL_DEPLOYMENT_FILES.md
+
 # Environment files
 .env*
 **/.env*
